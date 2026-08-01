@@ -1,0 +1,58 @@
+{
+  "arguments": {
+    "pcb": "fnirs.kicad_pcb",
+    "output": "output\\submission_dataset_easy_1000",
+    "num_subjects": 1000,
+    "seed": 12345,
+    "photons": 2000000,
+    "backend": "pmcx",
+    "noise_mode": "none",
+    "resume": false,
+    "overwrite": false,
+    "visualize_first": 10
+  },
+  "simulation": {
+    "pmcx": {
+      "photon_count": 2000000,
+      "tstart": 0.0,
+      "tstep": 5e-09,
+      "tend": 5e-08,
+      "srcdir": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "issrcfrom0": 1,
+      "backend": "pmcx",
+      "detector_mode": "explicit_detected_photons",
+      "detector_radius_mm": 1.54,
+      "paired_seed_mode": "identical"
+    },
+    "variation": {
+      "enabled": true,
+      "mua_scale_range": [
+        0.95,
+        1.05
+      ],
+      "mus_scale_range": [
+        0.95,
+        1.05
+      ],
+      "hemorrhage_mua_scale_range": [
+        0.95,
+        1.05
+      ],
+      "hemorrhage_mus_scale_range": [
+        0.95,
+        1.05
+      ]
+    },
+    "noise": {
+      "mode": "none",
+      "led_gain_std": 0.01,
+      "detector_gain_std": 0.008,
+      "multiplicative_white_std": 0.01,
+      "additive_fraction_std": 0.0015
+    }
+  }
+}
