@@ -1,0 +1,5 @@
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4
+# Install PMCX separately on the CUDA machine used for physical simulation:
+# pip install pmcx
