@@ -1,0 +1,30 @@
+{
+  "history_path": "..\\output\\medt_training_final_v2\\history.json",
+  "metrics_path": "..\\output\\medt_training_final_v2\\test_metrics.json",
+  "stage1_epochs": 30,
+  "stage2_epochs": 19,
+  "continuous_last_epoch": 49,
+  "generated_files": [
+    "01_training_loss.png",
+    "01_training_objectives.png",
+    "02_validation_accuracy.png",
+    "03_validation_auc.png",
+    "04_sensitivity_specificity.png",
+    "04_validation_sensitivity.png",
+    "05_validation_dice.png",
+    "05_validation_specificity.png",
+    "06_center_error.png",
+    "06_validation_dice.png",
+    "07_center_error.png",
+    "07_depth_error.png",
+    "08_depth_error.png",
+    "08_radii_error.png",
+    "09_radii_error.png",
+    "09_selection_score.png",
+    "10_final_classification_metrics.png",
+    "10_selection_score.png",
+    "11_final_localization_metrics.png",
+    "11_final_test_metrics.png",
+    "12_confusion_matrix.png"
+  ]
+}

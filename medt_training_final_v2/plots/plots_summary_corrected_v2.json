@@ -1,0 +1,27 @@
+{
+  "stage1_epochs": 30,
+  "stage2_epochs": 19,
+  "stage1_epoch_range": [
+    1,
+    30
+  ],
+  "stage2_continuous_epoch_range": [
+    31,
+    49
+  ],
+  "deleted_old_pngs_before_generation": true,
+  "generated_files": [
+    "01_training_objectives.png",
+    "02_validation_accuracy.png",
+    "03_validation_auc.png",
+    "04_sensitivity_specificity.png",
+    "05_validation_dice.png",
+    "06_center_error.png",
+    "07_depth_error.png",
+    "08_radii_error.png",
+    "09_selection_score.png",
+    "10_final_classification_metrics.png",
+    "11_final_localization_metrics.png",
+    "12_confusion_matrix.png"
+  ]
+}
