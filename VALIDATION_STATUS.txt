@@ -1,0 +1,12 @@
+Validated locally:
+- PCB parser against fnirs(1).kicad_pcb
+- 16 LEDs total, 8 at 740 nm, 8 at 850 nm, 16 detectors
+- 39 tests pass
+- anatomy generation includes a real air layer
+- paired anatomy/targets
+- end-to-end analytic_debug smoke run and file outputs
+
+Not validated locally:
+- real PMCX/CUDA execution (pmcx was not installed in this environment)
+
+Before production, run the one-subject PMCX pilot command from README.md.
