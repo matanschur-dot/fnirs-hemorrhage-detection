@@ -32,7 +32,7 @@ class OpticalVariationConfig:
 
 @dataclass(frozen=True)
 class PMCXConfig:
-    photon_count: int = 100_000
+    photon_count: int = 2000000
     tstart: float = 0.0
     tstep: float = 5e-9
     tend: float = 5e-8
